@@ -18,7 +18,7 @@ class RouteServiceProvider extends ServiceProvider
 
     /**
      * Define your route model bindings, pattern filters, etc.
-     *
+     *  实现路由的配置
      * @return void
      */
     public function boot()
@@ -30,7 +30,7 @@ class RouteServiceProvider extends ServiceProvider
 
     /**
      * Define the routes for the application.
-     *
+     * 为应用定义路由信息
      * @return void
      */
     public function map()
