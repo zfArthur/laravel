@@ -26,7 +26,7 @@ return [
     | Here you may specify the number of minutes that you wish the session
     | to be allowed to remain idle before it expires. If you want them
     | to immediately expire on the browser closing, set that option.
-    |
+    |   如果你希望浏览器关闭就立即让session失效， 将expire_on_close参数设置为true
     */
 
     'lifetime' => 120,
@@ -35,7 +35,7 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Session Encryption
+    | Session Encryption(加密)
     |--------------------------------------------------------------------------
     |
     | This option allows you to easily specify that all of your session data
@@ -63,9 +63,10 @@ return [
     |--------------------------------------------------------------------------
     | Session Database Connection
     |--------------------------------------------------------------------------
-    |
+    |                                                               指定
     | When using the "database" or "redis" session drivers, you may specify a
     | connection that should be used to manage these sessions. This should
+        符合
     | correspond to a connection in your database configuration options.
     |
     */
@@ -102,9 +103,11 @@ return [
     |--------------------------------------------------------------------------
     | Session Sweeping Lottery
     |--------------------------------------------------------------------------
-    |
+    |                           手动地     清除       存储
     | Some session drivers must manually sweep their storage location to get
+       使去掉
     | rid of old sessions from storage. Here are the chances that it will
+                                                几率
     | happen on a given request. By default, the odds are 2 out of 100.
     |
     */
@@ -125,21 +128,22 @@ return [
     'cookie' => 'laravel_session',
 
     /*
-    |--------------------------------------------------------------------------
-    | Session Cookie Path
-    |--------------------------------------------------------------------------
-    |
-    | The session cookie path determines the path for which the cookie will
-    | be regarded as available. Typically, this will be the root path of
-    | your application but you are free to change this when necessary.
-    |
-    */
+     |--------------------------------------------------------------------------
+     | Session Cookie Path
+     |--------------------------------------------------------------------------
+     |                           确定
+     | The session cookie path determines the path for which the cookie will
+         被视为                     代表性地
+     | be regarded as available. Typically, this will be the root path of
+     | your application but you are free to change this when necessary.
+     |
+     */
 
     'path' => '/',
 
     /*
     |--------------------------------------------------------------------------
-    | Session Cookie Domain
+    | Session Cookie Domain（域）
     |--------------------------------------------------------------------------
     |
     | Here you may change the domain of the cookie used to identify a session

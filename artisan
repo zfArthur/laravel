@@ -5,10 +5,12 @@
 |--------------------------------------------------------------------------
 | Register The Auto Loader
 |--------------------------------------------------------------------------
-|
+|                       方便的
 | Composer provides a convenient, automatically generated class loader
+|                                       利用
 | for our application. We just need to utilize it! We'll require it
 | into the script here so that we do not have to worry about the
+|                               手动地
 | loading of any our classes "manually". Feels great to relax.
 |
 */
@@ -19,6 +21,7 @@ $app = require_once __DIR__.'/bootstrap/app.php';
 
 /*
 |--------------------------------------------------------------------------
+|Artisan 是 Laravel 的命令行接口的名称， 它提供了许多实用的命令来帮助你开发 Laravel 应用
 | Run The Artisan Application
 |--------------------------------------------------------------------------
 |

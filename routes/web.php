@@ -40,8 +40,8 @@
 //});
 
 
-Route::get('/',function (){
-    dd(333);
+//Route::get('/',function (\App\Trade\Sale $trade){
+
 //    Mailer::send();
     //ServiceProvider
 
@@ -63,8 +63,8 @@ Route::get('/',function (){
 
 //$trade = app('trade');
 //    dd($trade->exchange());
-
-});
-Auth::routes();
-
+//
+//});
+//Auth::routes();
+//
 Route::get('/home', 'HomeController@index')->name('home');

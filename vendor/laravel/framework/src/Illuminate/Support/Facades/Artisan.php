@@ -15,7 +15,7 @@ use Illuminate\Contracts\Console\Kernel as ConsoleKernelContract;
  */
 class Artisan extends Facade
 {
-    /**
+    /**                                  组件
      * Get the registered name of the component.
      *
      * @return string

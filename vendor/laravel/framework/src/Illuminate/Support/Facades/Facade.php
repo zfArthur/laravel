@@ -140,7 +140,7 @@ abstract class Facade
      * @throws \RuntimeException
      */
     protected static function getFacadeAccessor()
-    {
+    {                                               //执行
         throw new RuntimeException('Facade does not implement getFacadeAccessor method.');
     }
 

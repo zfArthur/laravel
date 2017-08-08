@@ -31,7 +31,7 @@ interface Kernel
      */
     public function queue($command, array $parameters = []);
 
-    /**
+    /**                                             控制台
      * Get all of the commands registered with the console.
      *
      * @return array
